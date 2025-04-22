@@ -18,8 +18,8 @@ This repository contains Cypress end-to-end test cases for [SauceDemo](https://w
 ## 📂 Test File
 All test cases are inside `cypress/e2e/saucedemo.cy.js`.
 
-## 📸 Screenshots
-Cypress will automatically capture screenshots for failed tests in the `/cypress/screenshots/` directory.
+## 🎥 Videos
+Cypress automatically captures **videos** of test runs and stores them in the `/cypress/videos/` directory.
 
 ## 🧪 Run Tests
 
