@@ -1,28 +1,27 @@
-# SauceDemo Cypress Automation
+# SauceDemo Cypress Automation Project
 
-This repository contains Cypress end-to-end test cases for [SauceDemo](https://www.saucedemo.com/), including login, product filter, add to cart, checkout, and error handling.
+This project contains complete end-to-end automated test cases for [SauceDemo](https://www.saucedemo.com/) using Cypress.
 
-## ✅ Features Covered
-- Login with valid and invalid credentials
-- Add to Cart functionality
-- Product sorting/filtering
-- Logout process
-- Checkout workflow
-- Error validations
+## 📁 Test Cases
+- Total Test Cases: **14**
+- Location: `cypress/e2e/saucedemo.cy.js`
+- Covers:
+  - ✅ Login (valid, invalid, locked-out user)
+  - 🛒 Cart operations (add, remove, multiple)
+  - ✅ Checkout flow (step-by-step)
+  - 🧾 Order completion & return to products
+  - 🔃 Sorting (Price: Low to High)
+  - 🔐 Logout functionality
 
-## 🚀 Tech Stack
-- Cypress 12+
-- JavaScript (ES6)
-- Mocha + Chai (Cypress default)
+## 📄 Manual Test Case Sheet (Google Sheet)
+All test cases with details (Test Steps, Data, Expected vs Actual Results):
+👉 [View the sheet](https://docs.google.com/spreadsheets/d/1nNWSoIWDUVqly9IeTCdUXyjOHHID2Dhn9zBiRSqkP5E/edit?usp=sharing)
 
-## 📂 Test File
-All test cases are inside `cypress/e2e/saucedemo.cy.js`.
+## 💻 Tech Stack
+- Cypress
+- JavaScript
+- GitHub Codespaces (used for development)
 
-## 🎥 Videos
-Cypress automatically captures **videos** of test runs and stores them in the `/cypress/videos/` directory.
-
-## 🧪 Run Tests
-
-```bash
-npx cypress open    # for GUI mode
-npx cypress run     # for headless CLI mode
+## 📌 Notes
+- All tests are located in: `cypress/e2e/saucedemo.cy.js`
+- Developed and tested using **GitHub Codespaces**.
